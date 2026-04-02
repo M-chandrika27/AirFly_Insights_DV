@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Ignore only unnecessary data
+data/raw/
+
+# Keep processed data (important for project)
+# data/processed/cleaned_airline_data.csv should be INCLUDED
+
+# Optional: ignore temporary files
+*.pyc
